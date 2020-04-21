@@ -1,0 +1,35 @@
+/* GENERIC STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: midnightblue;
+  line-height: 150%;
+  font-size: 1.123em;
+  padding: 2em;
+}
+img {
+  max-width: 16em;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 300px;
+}
+
+button {
+  background-color: midnightblue;
+  color: white;
+  border: 0;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 1em;
+}
+.sub-content {
+  padding: 2em;
+}
